@@ -1,0 +1,31 @@
+#logo { 
+	text-align:center;
+	margin:0 auto;
+	top: 10px;
+	left: 10px;
+	width: 50%; 
+	height: 100px; 
+}	 
+
+#menubar li {
+	margin:0 auto;
+	text-align:center;
+	display:inline;  
+	padding: 3em;
+	width: 50%;
+}
+	ul li a { text-decoration:none; color:black; } 
+	ul li a:hover { color:red; }
+
+#main { 
+	text-align:justify;
+	align: center;
+	width: 50%; 
+	height: 500px;
+	margin:0 auto;	
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}      

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<title> TownTown Magazine </title>
+<head>
+<link type="text/css" rel="stylesheet" href="mystyle.css"> <!--CSS파일불러오기-->
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+
+      padding-bottom: 200px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 700px;
+      height: 500px;
+    }
+  </style>
+</head>
+
+<body>
+<!--==========================================================-->
+<header align="center">
+	<a href="index.html"><img src="towntownlogo.png" alt="logo" width="200" height="80"></a>
+</header>
+<!--==========================================================-->
+	<hr />
+<!--==========================================================-->
+<nav id="menubar" align="center">
+	<ul>
+		<li><a href="About.html">About</a></li>
+		<li><a href="Issue.html">Issue</a></li> 
+		<li><a href="Journal.html">Journal</a></li> 
+		<li><a href="Gallery.html">Gallery</a></li>
+		<li><a href="Contact.html">Contact&nbsp;&nbsp;&nbsp;</a></li> 
+	</ul>
+</nav>
+<!--==========================================================-->
+	<hr />
+<!--==========================BODY============================-->
+<embed src="Chet Baker-10-I Fall In Love Too Easily-320k.mp3" hidden="true" loop="-1">
+
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg6.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg7.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg8.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg10.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg12.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg14.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg17.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg21.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg25.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(towntown_jpg/TOWNTOWN_jpg26.jpg)"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+<!--==========================================================-->
+	<hr />
+<!--==========================================================-->
+<p align="center"><span style="font-size : 12px; color : #999999; display : block; padding : 0 0 5px 0;">유쾌한밀실 | 타운타운매거진 | 대표자 변진솔 | 서울특별시 천호대로 1239 101-1702(GS자이아파트) | delightful.secret.room@gmail.com | @TOWNTOWN_MGZN</p>
+<!--==========================================================-->
+</body> 
+</html>
