@@ -2,7 +2,8 @@
 <html lang="ko-KR">
 <title> TownTown Magazine </title>
 <head>
-<link type="text/css" rel="stylesheet" href="mystyle.css"> <!--CSS���Ϻҷ�����-->
+<link type="text/css" rel="stylesheet" href="mystyle.css"> <!--CSS파일불러오기-->
+
 </head>
 
 <body>
@@ -31,7 +32,8 @@
 <!--==========================================================-->
 	<hr />
 <!--==========================================================-->
-<p align="center"><span style="font-size : 12px; color : #999999; display : block; padding : 0 0 5px 0;">�����ѹн� | Ÿ��Ÿ��Ű��� | ��ǥ�� ������ | ����Ư���� õȣ��� 1239 101-1702(GS���̾���Ʈ) | delightful.secret.room@gmail.com | @TOWNTOWN_MGZN</p>
-<!--==========================================================-->
+<p align="center"><span style="font-size : 12px; color : #999999; display : block; padding : 0 0 5px 0;">유쾌한밀실 | 타운타운매거진 | 대표자 변진솔 | 서울특별시 천호대로 1239 101-1702(GS자이아파트) | delightful.secret.room@gmail.com | @TOWNTOWN_MGZN</p>
+<!--==========================================================-->
+
 </body> 
 </html>
